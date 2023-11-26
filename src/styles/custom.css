@@ -1,0 +1,246 @@
+.box {
+  /* height: 616px;
+    width: 412px; */
+  -webkit-backdrop-filter: blur(100px) brightness(100%);
+  backdrop-filter: blur(100px) brightness(100%);
+  background: linear-gradient(
+    180deg,
+    rgb(238, 255, 65) 0%,
+    rgb(61, 65, 250) 100%
+  );
+  /* border: 2px solid white; */
+  /* height: 100%; */
+  width: 40%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  /* align-items: center;  */
+}
+.card--container {
+  height: 30%;
+  width: 60%;
+  /* border: 2px solid blue; */
+}
+.card {
+  justify-content: space-between;
+  display: flex;
+  /* margin-left: 5%; */
+  gap: 40px;
+  width: 95%;
+  height: 40%;
+  margin-top: 50px;
+  /* border: 2px solid green; */
+}
+
+.feature--list {
+  /* padding: 20px 8%; */
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  width: 80%;
+}
+
+.feature--container {
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  margin-bottom: 40px;
+  border: 2px solid orange;
+}
+/* .phone--container {
+  margin-bottom: 50px;
+} */
+.invest--image {
+  /* justify-content: center;
+    align-items: center; */
+  display: flex;
+  align-items: center;
+  /* margin:0 auto; */
+  /* margin: 25% 20% 20% 15%; */
+}
+.phone--center {
+  margin-left: 15%;
+  margin-top: -50px;
+  /* border: 2px solid yellow; */
+  top: 100px;
+  z-index: 100;
+}
+.window {
+  /* width:80%; */
+}
+
+/* .founder--container{
+    min-width: 500px;
+  } */
+
+.founder {
+  /* margin-bottom: 75px; */
+  /* border: 2px solid green; */
+}
+.social--link {
+  /* border: 2px solid green; */
+  right: 10px;
+  position: relative;
+  /* margin-right: 200px; */
+}
+.image--card {
+  bottom: 0px;
+  margin-right: 25px;
+  border-radius: 10px;
+  /* border: 2px solid white;  */
+  margin-top: 15px;
+}
+.founder--image {
+  border-radius: 40px;
+
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.founder--image .grayscale {
+  border-radius: 40px;
+
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.upi--crop {
+  height: 100%;
+}
+.upi--image {
+  /* top: 30px; */
+  /* height: 100%; */
+  /* position: relative; */
+  /* left: 50px; */
+  /* margin-left: 10%; */
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid green; */
+}
+.ticker--container {
+  width: 100vw;
+}
+.banner--text {
+  /* border: 2px solid red; */
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+  .banner--text {
+    /* border: 2px solid red; */
+    font-size: 2.5rem;
+  }
+  .box {
+    /* height: 616px;
+    width: 412px; */
+
+    /* border: 2px solid white; */
+    /* height: 100%; */
+    width: 40%;
+    border-radius: 12px;
+    display: none;
+    align-items: center;
+
+    justify-content: center;
+    /* align-items: center;  */
+  }
+  .card--container {
+    width: 100%;
+  }
+  .desc--line {
+    flex-direction: row;
+  }
+  .btm-container {
+    display: flex;
+    flex-direction: column;
+    bottom: 5%;
+  }
+  .join-button {
+    bottom: 0;
+    margin-bottom: 10px;
+  }
+  .join--desc {
+    font-size: 15px;
+  }
+  .btm-pattern {
+    display: none;
+    position: relative;
+  }
+  .ticker--container {
+    display: none;
+  }
+  .phone--container {
+    position: absolute;
+    bottom: 100px;
+    margin-bottom: 50px;
+  }
+  .feature--container {
+    position: relative;
+    bottom: 200px;
+    margin-bottom: 50px;
+   
+  }
+  /* Your styles for screens between 601px and 1024px wide go here */
+}
+.ticker-container {
+  overflow: hidden;
+}
+
+.ticker {
+  display: flex;
+  transition: transform 1s ease;
+}
+
+.ticker-item {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+.ticker-container {
+  overflow: hidden;
+  /* border: 2px solid green; */
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.ticker {
+  display: flex;
+  width: max-content;
+  animation: tickerAnimation 12s linear infinite;
+  /* border: 2px solid white; */
+  /* Adjust the duration as needed */
+  white-space: nowrap;
+}
+
+.ticker-item {
+  /* min-width: 100%; */
+  text-align: center;
+  /* padding: 10px; */
+}
+.btm-container {
+}
+@keyframes tickerAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* absolute bottom-[0]  inset-x-[0] mx-auto w-[53%] md:w-full  */
+
+/* .box .rectangle {
+    -webkit-backdrop-filter: blur(100px) brightness(100%);
+    backdrop-filter: blur(100px) brightness(100%);
+    background: linear-gradient(180deg, rgb(41.13, 43.93, 173.19) 0%, rgb(61, 65, 250) 100%);
+    border-radius: 12px;
+    height: 616px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 412px;
+  } */
