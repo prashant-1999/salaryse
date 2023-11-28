@@ -32,7 +32,7 @@ const WebsitePage: React.FC = () => {
               size="txtNotoSansRegular20"
             >
               At SalarySe, we are building a full stack financial platform that
-              will help more that 50 million salaried employees in India spend,
+              will help more than 50 million salaried employees in India spend,
               save, invest and plan their salaries smartly.
             </Text>
           </div>

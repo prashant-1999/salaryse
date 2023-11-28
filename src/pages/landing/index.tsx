@@ -413,7 +413,7 @@ const landingPage: React.FC = () => {
               <div className="box  rectangle">
                 <Img
                   className="invest--image"
-                  src="images/invest.png"
+                  src="images/save.png"
                   alt="group179"
                 />
               </div>
