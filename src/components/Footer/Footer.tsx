@@ -125,21 +125,21 @@ const Footer: React.FC<FooterProps> = (props) => {
               Our Banking and Lending partners
             </Text>
             <div className="flex flex-row gap-8 items-center justify-start w-auto grayscale">
-              <div className="flex flex-col items-center justify-start w-[36%]">
+              {/* <div className="flex flex-col items-center justify-start w-[36%]">
                 <Img
                   className="h-6 md:h-auto object-cover w-full"
                   src="images/img_image6.png"
                   alt="imageSix"
                 />
-              </div>
-              <div className="flex flex-col items-center justify-start w-[27%]">
+              </div> */}
+              <div className="flex flex-col items-center justify-start w-[90px]">
                 <Img
                   className="h-[34px] md:h-auto object-cover w-full"
                   src="images/img_image5.png"
                   alt="imageFive"
                 />
               </div>
-              <div className="flex flex-col items-start justify-start w-[66px]">
+              <div className="flex flex-col items-start justify-start w-[70px]">
                 <Img
                   className="h-[30px] md:h-auto object-cover w-[66px] sm:w-full"
                   src="images/img_image4.png"
